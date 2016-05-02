@@ -16,11 +16,13 @@ server.use('/api', router)
 server.use(middlewares)
 server.use(router)
 
-app.listen(8000, function () {
-  console.log('Express is up')
+app.use(server)
+
+app.listen(8080, function () {
+  console.log('API SERVER UP')
 })
 
-
-server.listen(8080, function () {
-  console.log('JSON Server is running')
-})
+//
+// server.listen(8080, function () {
+//   console.log('JSON Server is running')
+// })
