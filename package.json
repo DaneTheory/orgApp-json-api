@@ -1,0 +1,19 @@
+{
+  "name": "org-app-json-api",
+  "version": "1.0.0",
+  "description": "json for organization app",
+  "main": "index.js",
+  "scripts": {
+            "start": "json-server --watch db.json --port 3001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaneTheory/orgApp-json-api.git"
+  },
+  "author": "branden dane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaneTheory/orgApp-json-api/issues"
+  },
+  "homepage": "https://github.com/DaneTheory/orgApp-json-api#readme"
+}
