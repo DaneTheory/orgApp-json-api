@@ -4,8 +4,8 @@
   "description": "json for organization app",
   "main": "index.js",
   "scripts": {
-    "server": "json-server db.json --static ./public --port 8080",
-    "start": "node server.js"
+    "server": "json-server db.json --static ./public --port 8000",
+    "start": "npm run server"
   },
   "repository": {
     "type": "git",

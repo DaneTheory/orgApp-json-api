@@ -1,9 +1,8 @@
 var jsonServer = require('json-server')
-var server = jsonServer.create()
-var router = jsonServer.router('db.json')
-var middlewares = jsonServer.defaults();
+// var server = jsonServer.create()
+// var router = jsonServer.router('db.json')
+// var middlewares = jsonServer.defaults();
 var express = require('express');
-var bodyParser = require('body-parser');
 var app = express();
 
 // app.configure(function() {
@@ -11,15 +10,15 @@ var app = express();
 // });
 
 
-server.use('/api', router)
+// server.use('/api', router)
+//
+// server.use(middlewares)
+// server.use(router)
 
-server.use(middlewares)
-server.use(router)
-
-app.use(server)
+// app.use(server)
 
 app.listen(8080, function () {
-  console.log('API SERVER UP')
+  console.log('Express Up')
 })
 
 //
