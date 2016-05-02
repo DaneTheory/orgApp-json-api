@@ -6,6 +6,6 @@ var middlewares = jsonServer.defaults()
 server.use(middlewares)
 server.use(router)
 
-server.listen(8080, function () {
+server.listen(80, function () {
   console.log('JSON Server is running')
 })
